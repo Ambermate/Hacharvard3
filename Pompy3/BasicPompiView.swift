@@ -58,7 +58,8 @@ struct PompiARView: UIViewRepresentable {
                     let anchor = AnchorEntity()
                     let parentEntity = ModelEntity()
 //                    parentEntity.position += prevPosition
-                    let entity = try! Entity.load(named: value)
+//                    let entity = try! Entity.load(named: value)
+                    let entity = EchoUsdzFileManager().getAsModelEntity(value + ".usdz")
                     parentEntity.addChild(entity)
                     anchor.scale = [0.1,0.1,0.1]
                     anchor.addChild(parentEntity)

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4155C6DD28FB9FBE00669D06 /* buttonsOnAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155C6DC28FB9FBE00669D06 /* buttonsOnAR.swift */; };
 		4155C6DF28FBA22100669D06 /* paris.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4155C6DE28FBA22100669D06 /* paris.usdz */; };
+		4161484E28FC27EA0072EEAC /* Echo3D_API_Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4161484B28FC27EA0072EEAC /* Echo3D_API_Integration.swift */; };
+		4161484F28FC27EA0072EEAC /* Echo3DModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4161484C28FC27EA0072EEAC /* Echo3DModel.swift */; };
+		4161485028FC27EA0072EEAC /* Echo3DUsdzFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4161484D28FC27EA0072EEAC /* Echo3DUsdzFileManager.swift */; };
 		41F5511B28FB9A4D001052C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5511A28FB9A4D001052C2 /* AppDelegate.swift */; };
 		41F5511D28FB9A4D001052C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5511C28FB9A4D001052C2 /* ContentView.swift */; };
 		41F5511F28FB9A4D001052C2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 41F5511E28FB9A4D001052C2 /* Experience.rcproject */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		4155C6DC28FB9FBE00669D06 /* buttonsOnAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonsOnAR.swift; sourceTree = "<group>"; };
 		4155C6DE28FBA22100669D06 /* paris.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = paris.usdz; sourceTree = "<group>"; };
+		4161484B28FC27EA0072EEAC /* Echo3D_API_Integration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Echo3D_API_Integration.swift; sourceTree = "<group>"; };
+		4161484C28FC27EA0072EEAC /* Echo3DModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Echo3DModel.swift; sourceTree = "<group>"; };
+		4161484D28FC27EA0072EEAC /* Echo3DUsdzFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Echo3DUsdzFileManager.swift; sourceTree = "<group>"; };
 		41F5511728FB9A4D001052C2 /* Pompy3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pompy3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F5511A28FB9A4D001052C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41F5511C28FB9A4D001052C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +95,9 @@
 				41F5511E28FB9A4D001052C2 /* Experience.rcproject */,
 				4155C6DE28FBA22100669D06 /* paris.usdz */,
 				41F6592F28FBADD2001E5AC9 /* jump1.usdz */,
+				4161484B28FC27EA0072EEAC /* Echo3D_API_Integration.swift */,
+				4161484C28FC27EA0072EEAC /* Echo3DModel.swift */,
+				4161484D28FC27EA0072EEAC /* Echo3DUsdzFileManager.swift */,
 				41F6593028FBADD2001E5AC9 /* jump2.usdz */,
 				41F6593328FBADDC001E5AC9 /* nodding.usdz */,
 				41F6592728FBAAD0001E5AC9 /* nature.usdz */,
@@ -182,10 +191,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F6592E28FBAC9B001E5AC9 /* BasicPompiView.swift in Sources */,
+				4161485028FC27EA0072EEAC /* Echo3DUsdzFileManager.swift in Sources */,
 				41F5511D28FB9A4D001052C2 /* ContentView.swift in Sources */,
 				41F5511B28FB9A4D001052C2 /* AppDelegate.swift in Sources */,
+				4161484F28FC27EA0072EEAC /* Echo3DModel.swift in Sources */,
 				41F5511F28FB9A4D001052C2 /* Experience.rcproject in Sources */,
 				41F6592A28FBAADE001E5AC9 /* OldContentView.swift in Sources */,
+				4161484E28FC27EA0072EEAC /* Echo3D_API_Integration.swift in Sources */,
 				4155C6DD28FB9FBE00669D06 /* buttonsOnAR.swift in Sources */,
 				41F6592C28FBABAC001E5AC9 /* NatureView.swift in Sources */,
 				41F6593A28FBF812001E5AC9 /* Request.swift in Sources */,

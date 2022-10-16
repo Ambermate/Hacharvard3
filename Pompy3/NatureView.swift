@@ -42,7 +42,8 @@ struct NatureARView: UIViewRepresentable {
                 if true {
                     let anchor = AnchorEntity()
                     let parentEntity = ModelEntity()
-                    let entity = try! Entity.load(named: "nature")
+//                    let entity = try! Entity.load(named: "nature")
+                    let entity = EchoUsdzFileManager.getAsModelEntity("nature" + ".usdz")
                     parentEntity.addChild(entity)
 //                    anchor.scale = [3,3,3]
                     entity.position -= SIMD3(x: 0, y: 0, z: -5)

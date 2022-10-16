@@ -34,4 +34,4 @@ func post(to urlString: String, _ data: TestItem) {
     
 }
 
-post(to: "https://3dc0-65-112-8-20.ngrok.io/test_post", TestItem(sometext: "https://www.dropbox.com/s/swk13j8d44ohwgg/IMG_7441.jpg?dl=1"))
+//post(to: "https://3dc0-65-112-8-20.ngrok.io/test_post", TestItem(sometext: "https://www.dropbox.com/s/swk13j8d44ohwgg/IMG_7441.jpg?dl=1"))

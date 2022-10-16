@@ -62,7 +62,8 @@ struct ARViewContainer: UIViewRepresentable {
                 if value != "" {
                     let anchor = AnchorEntity()
                     let parentEntity = ModelEntity()
-                    let entity = try! Entity.load(named: value)
+//                    let entity = try! Entity.load(named: value)
+                    let entity = EchoUsdzFileManager.getAsModelEntity(value + ".usdz")
                     parentEntity.addChild(entity)
                     anchor.scale = [10,10,10]
                     anchor.addChild(parentEntity)
