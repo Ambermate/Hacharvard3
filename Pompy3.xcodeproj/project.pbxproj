@@ -23,6 +23,7 @@
 		41F6593428FBADDC001E5AC9 /* nodding.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 41F6593328FBADDC001E5AC9 /* nodding.usdz */; };
 		41F6593628FBBA87001E5AC9 /* notworking1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6593528FBBA87001E5AC9 /* notworking1.swift */; };
 		41F6593828FBF1F4001E5AC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6593728FBF1F4001E5AC9 /* MapView.swift */; };
+		41F6593A28FBF812001E5AC9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6593928FBF812001E5AC9 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		41F6593328FBADDC001E5AC9 /* nodding.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nodding.usdz; sourceTree = "<group>"; };
 		41F6593528FBBA87001E5AC9 /* notworking1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notworking1.swift; sourceTree = "<group>"; };
 		41F6593728FBF1F4001E5AC9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		41F6593928FBF812001E5AC9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				41F5511A28FB9A4D001052C2 /* AppDelegate.swift */,
 				41F5511C28FB9A4D001052C2 /* ContentView.swift */,
 				41F6592B28FBABAC001E5AC9 /* NatureView.swift */,
+				41F6593928FBF812001E5AC9 /* Request.swift */,
 				41F6592D28FBAC9B001E5AC9 /* BasicPompiView.swift */,
 				41F6593728FBF1F4001E5AC9 /* MapView.swift */,
 				41F6593528FBBA87001E5AC9 /* notworking1.swift */,
@@ -185,6 +188,7 @@
 				41F6592A28FBAADE001E5AC9 /* OldContentView.swift in Sources */,
 				4155C6DD28FB9FBE00669D06 /* buttonsOnAR.swift in Sources */,
 				41F6592C28FBABAC001E5AC9 /* NatureView.swift in Sources */,
+				41F6593A28FBF812001E5AC9 /* Request.swift in Sources */,
 				41F6593828FBF1F4001E5AC9 /* MapView.swift in Sources */,
 				41F6593628FBBA87001E5AC9 /* notworking1.swift in Sources */,
 			);
